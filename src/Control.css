@@ -1,0 +1,52 @@
+.control {
+    display:inline-block;
+    border-radius: 10px;
+    color: white;
+    background: #1c1f2b;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .control p{
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .control a, .control a.active{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .control a.active{
+    background: #262b3f;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding:8px;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .control a:hover:not(a.active) {
+    animation: dim 0.2s linear;
+    opacity: 0.5;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes dim {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.5;
+    }
+  }

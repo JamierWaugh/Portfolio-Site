@@ -1,0 +1,20 @@
+
+
+.box {
+  margin: 10px;
+  padding-left: 2em;
+  padding-right:2em;
+  background: #1c1f2b;
+  text-align: left;
+  border-radius: 10px;
+
+  height:fit-content;
+  font-family: "Circular" ;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+
+
+
