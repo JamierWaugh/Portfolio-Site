@@ -1,0 +1,45 @@
+
+
+.box, .shorten, .grow, .central {
+  margin: 8px;
+  padding: 10px;
+  background: #1c1f2b;
+  border-radius: 10px;
+  height:fit-content;
+  font-family: "Circular" ;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+.box, .grow, .shorten {
+  text-align:left
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    column-gap: 10px;
+    justify-content: left;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1000px;
+    height: 1000px;
+}
+
+.shorten {
+    flex-shrink: 1;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.central {
+  text-align: center ; /* Make text on this image align in the center */
+}
+
+.central img{
+  border-radius: 50%;
+}
+
