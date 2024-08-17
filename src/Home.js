@@ -1,9 +1,12 @@
 import './Home.css';
 import "./Control.css"
 import "./Cards.js";
+import "./imgCard.js";
+import ImgCard from "./imgCard.js";
 import Card from './Cards.js';
 import google from "./assets/googlepng.png"
 import gitImg from "./assets/mygithub.png"
+import sand from "./assets/SandSimIMG.png"
 
 function MainPage() {
   return (
@@ -14,27 +17,36 @@ function MainPage() {
             <a href = "#">Portfolio</a>
             <a href = "#">Contact</a>
         </div>
-        <div className = "card">
-            <h1> Jamie Waugh</h1>
-            <h2> Software Development <br></br> Portfolio</h2>
-        </div>
-        <div className = "contact"> {/*Add gradient fade around contact and make it a box similar to current design to contrast grayscale*/}
-              <p> contact me</p>
-              <a href = "mailto:jamierwaugh@gmail.com"><img src= {google} alt= "Google link"></img></a>
-        </div>
+                {/* Mail link <a href = "mailto:jamierwaugh@gmail.com"><img src= {google} alt= "Google link"></img></a>*/}
 
         
       <div className="container">
-        <div className = "grow"> 
+        <div className = "textStyle"> 
           <Card
           title = "What do I know?"
           content = "JS,CSS, HTML, React, Python"
           />
         </div>
+        <div className = "image">
+          <ImgCard 
+          source = {sand}
+          />
+        </div>
         <div className = "box">
           <Card
-          title = "Jamie Waugh"
-          content="Github"
+          title = "Student and Full Stack Developer"
+          />
+        </div>
+        <div className = "central">
+          <Card
+          title = {<img src={gitImg}  width = "50px" height = "50px" ></img>}
+          content = "Jamie Waugh"
+          />
+        </div>
+        <div className = "box">
+          <Card 
+          title="I love my dog"
+          content=""
           />
         </div>
         <div className = "box">
@@ -44,17 +56,15 @@ function MainPage() {
           />
         </div>
         <div className = "box">
-          <Card 
-          title=""
-          content="I love my dog"
-          />
-        </div>
-        <div className = "central">
           <Card
-          title = {<img src={gitImg}  width = "50" height = "50" ></img>}
-          content = "Jamie Waugh"
+          title = "Education"
+          content="A level"
           />
         </div>
+
+        
+        
+        
       </div>
     </div>
 

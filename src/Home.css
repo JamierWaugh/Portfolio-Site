@@ -6,7 +6,10 @@
         url("./fonts/CircularStd-Book.otf") format("opentype");
 
 }
-
+body {
+  height: 100%;
+  overflow-y: hidden;
+}
 .Page {
   font-family: "Circular";
   position:relative;
