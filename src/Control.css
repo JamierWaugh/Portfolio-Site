@@ -13,25 +13,23 @@
   
   .control p{
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-right:8px;
   }
   
   .control a, .control a.active{
     color: white;
     text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding:8px;
+    padding-left:10px;
+    padding-right:10px;
   }
   
   .control a.active{
     background: #262b3f;
-    border-radius: 5px;
-    width: fit-content;
-    height: fit-content;
-    padding:8px;
+    border-radius: 10px;
     animation: fadeIn 0.5s ease-out;
-    padding-left: 10px;
-    padding-right: 10px;
+    
   }
   
   .control a:hover:not(a.active) {
