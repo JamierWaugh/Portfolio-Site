@@ -1,4 +1,4 @@
-import "./Card.css"
+
 
 function RepeatImgCard(props) {
     return (

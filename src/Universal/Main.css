@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Circular";
   src:  local("Circular"),
-        url("./fonts/CircularStd-Book.woff2") format("woff2"),
-        url("./fonts/CircularStd-Book.ttf") format("truetype"),
-        url("./fonts/CircularStd-Book.otf") format("opentype");
+        url("../fonts/CircularStd-Book.woff2") format("woff2"),
+        url("../fonts/CircularStd-Book.ttf") format("truetype"),
+        url("../fonts/CircularStd-Book.otf") format("opentype");
 
 }
 body {

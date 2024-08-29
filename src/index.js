@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import RouteApp from "./routes.js"
-import MainPage from './Home';
-import Portfolio from "./Portfolio.js"
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router} from "react-router-dom";
 

@@ -1,22 +1,23 @@
-import './Home.css';
-import "./Control.css"
-import "./Cards.js";
-import "./imgCard.js";
-import "./textCard.js";
-import "./longTextCard.js";
+import '../Universal/Main.css';
+import "../Universal/Control.css"
+import "../Universal/Cards.js";
+import "../Universal/imgCard.js";
+import "../Universal/textCard.js";
+import "../Universal/longTextCard.js";
 import "./repeatImgCard.js";
+import "./Card.css";
 import RepeatImgCard from "./repeatImgCard.js"
-import LongTextCard from './longTextCard.js';
-import TextCard from "./textCard.js";
-import ImgCard from "./imgCard.js";
-import Card from './Cards.js';
-import gitImg from "./assets/mygithub.png";
-import sand from "./assets/SandSimIMG.png";
-import cssimg from "./assets/css-logo.png";
-import pythonimg from "./assets/python-logo.png";
-import reactimg from "./assets/reactpng.png";
-import htmlimg from "./assets/htmlpng.png";
-import jsimg from "./assets/javascript-logo.png";
+import LongTextCard from '../Universal/longTextCard.js';
+import TextCard from "../Universal/textCard.js";
+import ImgCard from "../Universal/imgCard.js";
+import Card from '../Universal/Cards.js';
+import gitImg from "../assets/mygithub.png";
+import sand from "../assets/SandSimIMG.png";
+import cssimg from "../assets/css-logo.png";
+import pythonimg from "../assets/python-logo.png";
+import reactimg from "../assets/reactpng.png";
+import htmlimg from "../assets/htmlpng.png";
+import jsimg from "../assets/javascript-logo.png";
 import  {NavLink} from "react-router-dom"
 
 
@@ -25,7 +26,7 @@ function MainPage() {
     <div className = "Page">
 
         <div className = "control">
-          <NavLink to ="/Home" activeclassname="active">Home</NavLink> {/* Individual link which changes the url, used for url */}
+          <NavLink to ="/" activeclassname="active">Home</NavLink> {/* Would like to change url to start on /Home which would fix "active" issue with just / */}
           <NavLink to="/Portfolio" activeclassname="active" >Portfolio</NavLink>
           <NavLink to =  "/Contact" activeclassname="active">Contact</NavLink>
         </div>
@@ -40,6 +41,7 @@ function MainPage() {
         <div className = "image">
           <ImgCard 
           source = {sand}
+          altText = {"Sand Simulation"}
           />
         </div>
         <div className = "box">
