@@ -3,7 +3,7 @@
 function ImgCard(props) {
     return (
         <div>
-            <a href = "#"><img src={props.source} width = "150px" height = "150px" alt = {props.altText}></img></a>
+            <a href = {props.linkTo}><img src={props.source} width = {props.width} height = {props.height} alt = {props.altText}></img></a>
         </div>
     )
 }

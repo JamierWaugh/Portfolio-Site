@@ -40,7 +40,10 @@ function MainPage() {
         </div>
         <div className = "image">
           <ImgCard 
+          linkTo = "/Portfolio"
           source = {sand}
+          width = {"150px"}
+          height = {"150px"}
           altText = {"Sand Simulation"}
           />
         </div>
