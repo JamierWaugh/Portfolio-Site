@@ -1,0 +1,167 @@
+.containerC {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(6, 80px );
+    column-gap: 5px;
+    row-gap:5px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 600px;
+    height: 700px;
+  }
+  
+  .boxC, .shortenC, .growC, .centralC, .textStyleC, .linkClassC, .centralC a, .buttonClass, .buttonClass a{
+    background: #1c1f2b;
+    border-radius: 10px;
+    height:auto;
+    font-family: "Circular" ;
+    font-size: calc(13px);
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    transition: border-radius 0.2s linear;
+    
+  }
+
+  .accentC {
+    background:#006a4e;
+    border-radius:10px;
+  }
+  .boxC, .growC, .shortenC {
+    text-align:left
+  }
+  
+  .boxC img {
+    text-align: center;
+  }
+  
+  .boxC:hover, .textStyleC:hover, .mainImageC img:hover, .mainImageC:hover, .centralC:hover{ /* Need to decide if I like this animation or not, should it be on all items or just interactable ones? */
+    border-radius: 25px;
+  }
+
+  .mainImageC {
+    padding:0px;
+  }
+
+  .mainImageC img {
+    border-radius:10px;
+    transition: border-radius 0.2s linear;
+  }
+
+  .centralC {
+    text-align: center ;
+    
+  }
+
+  .centralC a {
+    text-decoration: none;
+    margin-top: 50px;
+    width: fit-content;
+    
+  }
+
+
+
+  .centralC p {
+    background: #262b3f;
+    border-radius: 8px;
+    padding: 5px;
+    width: 120px;
+    height: fit-content;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+
+
+  .mainTitle {
+    font-size: 15px;
+  }
+  .mainSub{
+    font-size:13px;
+  }
+  .altPara {
+    font-size:14px;
+    opacity: 0.5;
+    
+  }
+  
+  .centralC img{
+    margin-top: 80px;
+    height: 50px;
+    width: 50px;
+
+  }
+
+  .buttonClass{
+    display: inline-block;
+    
+  }
+
+  .buttonClass div {
+    height:fit-content;
+    width: fit-content;
+    margin-left: 40px;
+    margin-top: 26px;
+  }
+
+  .buttonClass a{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    display:inline-block;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+  }
+
+  .buttonClass img{
+    width: 16px;
+    height:16px;
+    border-radius: 5px;
+  }
+
+  .buttonClass button{
+    border-radius: 5px;
+    background-color: #262b3f;
+    border:none;
+    padding-top:5px;
+    position: absolute;
+    margin-left: 10px;
+    
+  }
+
+  .buttonClass p{
+    background: #262b3f;
+    border-radius: 8px;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+    text-decoration: none;
+  }
+
+  
+
+.containerC > :nth-child(1) {
+    background: #006a4e;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.containerC > :nth-child(2) {
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+
+.containerC > :nth-child(3) {
+    grid-column: 1/3;
+    grid-row: 2/6;
+}
+
+.containerC > :nth-child(4) {
+    grid-column: 3/5;
+    grid-row: 2/6;
+}
+
