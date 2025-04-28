@@ -40,7 +40,7 @@ function MainPage() {
         </div>
         <div className = "image">
           <ImgCard 
-          linkTo = "/Portfolio"
+          linkTo = "/Portfolio-Site/Portfolio"
           source = {sand}
           width = {"150px"}
           height = {"150px"}
