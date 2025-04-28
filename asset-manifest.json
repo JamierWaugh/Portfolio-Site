@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.a21cb982.css",
-    "main.js": "/Portfolio-site/static/js/main.4d78226c.js",
-    "static/js/453.f4fbaa6d.chunk.js": "/Portfolio-site/static/js/453.f4fbaa6d.chunk.js",
-    "static/media/css-logo.png": "/Portfolio-site/static/media/css-logo.45d554cc505b58ab3ef7.png",
-    "static/media/javascript-logo.png": "/Portfolio-site/static/media/javascript-logo.bf131e9bac4f861ab3ac.png",
-    "static/media/python-logo.png": "/Portfolio-site/static/media/python-logo.1791cddd70e9ca510efc.png",
-    "static/media/CircularStd-Book.ttf": "/Portfolio-site/static/media/CircularStd-Book.018bab0af162c0a8d734.ttf",
-    "static/media/CircularStd-Book.otf": "/Portfolio-site/static/media/CircularStd-Book.9048137056e4347dbbd5.otf",
-    "static/media/SandSimIMG.png": "/Portfolio-site/static/media/SandSimIMG.07f8349b6c75df6c8baa.png",
-    "static/media/reactpng.png": "/Portfolio-site/static/media/reactpng.4b6fd0af99c5b13de30f.png",
-    "static/media/CircularStd-Book.woff2": "/Portfolio-site/static/media/CircularStd-Book.63989c1171d3f40ab380.woff2",
-    "static/media/Checkerswithpieces.png": "/Portfolio-site/static/media/Checkerswithpieces.8c3bcda99affdf3bfe51.png",
-    "static/media/htmlpng.png": "/Portfolio-site/static/media/htmlpng.f44a6205dc497da7ef60.png",
-    "static/media/clipboard2.png": "/Portfolio-site/static/media/clipboard2.61329c281447c6632c07.png",
-    "index.html": "/Portfolio-site/index.html",
-    "main.a21cb982.css.map": "/Portfolio-site/static/css/main.a21cb982.css.map",
-    "main.4d78226c.js.map": "/Portfolio-site/static/js/main.4d78226c.js.map",
-    "453.f4fbaa6d.chunk.js.map": "/Portfolio-site/static/js/453.f4fbaa6d.chunk.js.map"
+    "main.css": "/portfolio-app/static/css/main.3e4e26de.css",
+    "main.js": "/portfolio-app/static/js/main.3977b62d.js",
+    "static/js/453.f4fbaa6d.chunk.js": "/portfolio-app/static/js/453.f4fbaa6d.chunk.js",
+    "static/media/css-logo.png": "/portfolio-app/static/media/css-logo.45d554cc505b58ab3ef7.png",
+    "static/media/javascript-logo.png": "/portfolio-app/static/media/javascript-logo.bf131e9bac4f861ab3ac.png",
+    "static/media/python-logo.png": "/portfolio-app/static/media/python-logo.1791cddd70e9ca510efc.png",
+    "static/media/CircularStd-Book.ttf": "/portfolio-app/static/media/CircularStd-Book.018bab0af162c0a8d734.ttf",
+    "static/media/CircularStd-Book.otf": "/portfolio-app/static/media/CircularStd-Book.9048137056e4347dbbd5.otf",
+    "static/media/SandSimIMG.png": "/portfolio-app/static/media/SandSimIMG.07f8349b6c75df6c8baa.png",
+    "static/media/reactpng.png": "/portfolio-app/static/media/reactpng.4b6fd0af99c5b13de30f.png",
+    "static/media/CircularStd-Book.woff2": "/portfolio-app/static/media/CircularStd-Book.63989c1171d3f40ab380.woff2",
+    "static/media/Checkerswithpieces.png": "/portfolio-app/static/media/Checkerswithpieces.8c3bcda99affdf3bfe51.png",
+    "static/media/htmlpng.png": "/portfolio-app/static/media/htmlpng.f44a6205dc497da7ef60.png",
+    "static/media/clipboard2.png": "/portfolio-app/static/media/clipboard2.61329c281447c6632c07.png",
+    "index.html": "/portfolio-app/index.html",
+    "main.3e4e26de.css.map": "/portfolio-app/static/css/main.3e4e26de.css.map",
+    "main.3977b62d.js.map": "/portfolio-app/static/js/main.3977b62d.js.map",
+    "453.f4fbaa6d.chunk.js.map": "/portfolio-app/static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a21cb982.css",
-    "static/js/main.4d78226c.js"
+    "static/css/main.3e4e26de.css",
+    "static/js/main.3977b62d.js"
   ]
 }
